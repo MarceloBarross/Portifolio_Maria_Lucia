@@ -1,0 +1,76 @@
+#pre {
+  height: 516px;
+  background: linear-gradient(45deg, #8a7262, #a28c7c, #ad998b, #b8a69a, #cdc0b8);
+  background-size: 300% 300%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  animation: colors 10s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  33% {
+    background-position: 100% 50%;
+  }
+
+  99% {
+    background-position: 0% 50%;
+  }
+}
+
+.cta-content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#pre h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
+}
+
+#pre p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+/* Botão Estilo Off-White */
+::ng-deep .botao-whatsapp {
+  background-color: #F5F1ED !important;
+  color: #634B3B !important;
+  border: none !important;
+  padding: 1.2rem 2.5rem !important;
+  border-radius: 12px !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s, background-color 0.3s !important;
+}
+
+::ng-deep .botao-whatsapp:hover {
+  background-color: #FFFFFF !important;
+  transform: translateY(-3px) !important;
+}
+
+.localizacao {
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-top: 1rem;
+}

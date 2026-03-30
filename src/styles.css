@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import "primeicons/primeicons.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.noto {
+  font-family: 'Noto Serif', serif;
+}
+
+.manrope {
+  font-family: 'Manrope', sans-serif;
+}
+

@@ -1,0 +1,41 @@
+ <!-- portifolio -->
+  <section class="portifolio">
+    <div id="titulo_Portifolio">
+      <h2 class="noto">Transformações Reais</h2>
+      <p class="manrope">Conheça os resultados de quem confiou em nosso cuidado.</p>
+    </div>
+    <div class="card">
+      <p-carousel
+        id="atendimentos"
+        [value]="atendimentos"
+        [numVisible]="2"
+        [numScroll]="1"
+        [circular]="true"
+        [responsiveOptions]="responsiveOptions"
+        autoplayInterval="7000"
+      >
+        <ng-template let-atend #item>
+          <div class="card-portifolio">
+            <div class="mb-4">
+              <div class="relative mx-auto flex justify-content-between gap-2">
+                <img
+                  src="assets/casos/{{ atend.img_adress }}1.jpeg"
+                  [alt]="atend.nome"
+                  class="img_casos"
+                />
+                <img
+                  src="assets/casos/{{ atend.img_adress }}2.jpeg"
+                  [alt]="atend.nome"
+                  class="img_casos"
+                />
+              </div>
+            </div>
+            <div class="font-medium noto">{{ atend.nome }}</div>
+            <div class="">
+              <div class="manrope aten-desc">{{ atend.descricao }}</div>
+            </div>
+          </div>
+        </ng-template>
+      </p-carousel>
+    </div>
+  </section>

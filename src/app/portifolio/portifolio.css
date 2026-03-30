@@ -1,0 +1,64 @@
+/* portifolio */
+
+#titulo_Portifolio {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+#titulo_Portifolio h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#titulo_Portifolio p {
+  font-size: 1.2rem;
+  color: #ad998b;
+}
+
+.portifolio {
+  background-color: #FBF9F9;
+  padding-bottom: 80px;
+  font-size: 0.95rem;
+  color: #777;
+  line-height: 1.5;
+  min-height: 3rem;
+}
+
+.portifolio .border-surface-200 {
+  background-color: #ffffff;
+  border: 1px solid #eee !important;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+  transition: transform 0.3s ease;
+}
+
+.img_casos {
+  width: 45%;
+  margin: 2px;
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border: 1px solid #f0f0f0;
+}
+
+
+.portifolio .font-medium {
+  font-size: 1.4rem;
+  color: #444;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.card-portifolio {
+  border-radius: 12px;
+  padding: 20px 0;
+  margin: 10px;
+  background-color: #b1b2b23d;
+  align-items: center;
+  text-align: center;
+}
+
+.aten-desc {
+  padding: 0 15px;
+}

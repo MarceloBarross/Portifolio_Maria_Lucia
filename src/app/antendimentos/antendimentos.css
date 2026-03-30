@@ -1,0 +1,96 @@
+/* atendimentos */
+
+#atendimentos {
+  padding: 60px 12%;
+  background-color: #e6e6e6;
+}
+
+.titulo_atendimentos {
+  margin-bottom: 40px;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#titulo_atendimentos_h2 {
+  font-size: 2.5rem;
+}
+
+
+.linha-decorativa-curta {
+  width: 185px;
+  height: 2px;
+  background-color: #AD998B;
+}
+
+#itens_atendimentos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #E5E7EB;
+  background-color: #b1b2b23d;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.item_atendimentos {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #b1b2b23d;
+  background-color: #F3F4F6;
+}
+
+.item_atendimentos i {
+  color: #AD998B;
+  font-size: 1.5rem;
+}
+
+.item_atendimentos span {
+  color: #AD998B;
+  font-size: 1.5rem;
+}
+
+.item_atendimentos h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.item_atendimentos p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.card-destaque {
+  background-color: #AD998B;
+  color: white !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-destaque p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-destaque a {
+  color: white;
+  font-weight: 500;
+  text-decoration: dashed;
+}
+
+.card-destaque a:hover {
+  text-decoration: underline;
+  font-weight: dashed;
+}
+
+
+@media (max-width: 480px) {
+  #itens_atendimentos {
+    grid-template-columns: 1fr;
+  }
+
+  .titulo-principal {
+    font-size: 2rem;
+  }
+}
